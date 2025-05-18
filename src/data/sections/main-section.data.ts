@@ -1,6 +1,6 @@
 import type { MainSection } from '@/types/sections/main-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, linkedin, twitter } from '../helpers/links';
+import { github, linkedin } from '../helpers/links';
 
 const mainSectionData = {
   config: {
@@ -10,30 +10,31 @@ const mainSectionData = {
     visible: true,
   },
   image: import('@/assets/my-image.jpeg'),
-  fullName: 'Mark Freeman',
-  role: 'Senior React Developer',
+  fullName: 'Stephanie Fernandez Salinas',
+  role: 'Senior Software Engineer',
   details: [
-    { label: 'Phone', value: '605 475 6961', url: 'tel:605 475 6961' },
-    { label: 'Email', value: 'mark.freeman.dev@gmail.com', url: 'mailto:mark.freeman.dev@gmail.com' },
-    { label: 'From', value: 'Warsaw, Poland' },
-    { label: 'Salary range', value: '18 000 - 25 000 PLN' },
+    { label: 'Email', value: 'stephanienicolefs@gmail.com', url: 'mailto:stephanienicolefs@gmail.com' },
+    { label: 'Current residence', value: 'Buenos Aires, Argentina' },
+    { label: 'Citizenship', value: 'United States (US Citizen)' },
   ],
   pdfDetails: [
-    { label: 'Phone', value: '605 475 6961' },
-    { label: 'Email', value: 'mark.freeman.dev@gmail.com' },
-    { label: 'LinkedIn', value: '/in/mark-freeman', url: 'https://linkedin.com' },
-    { label: 'GitHub', value: '/mark-freeman', url: 'https://github.com' },
+    { label: 'Email', value: 'stephanienicolefs@gmail.com' },
+    { label: 'LinkedIn', value: '/in/stephanie-nicole-fs', url: 'https://linkedin.com/in/stephanie-nicole-fs' },
+    { label: 'GitHub', value: '/stephanienfs', url: 'https://github.com' },
     { label: 'Website', value: 'mark-freeman-personal-website.com', url: '/', fullRow: true },
   ],
   description:
-    'Lorem ipsum dolor sit amet, consectetur **adipiscing elit**. In sodales ac dui at *vestibulum*. In condimentum metus id dui tincidunt, in blandit mi [vehicula](/). Nulla lacinia, erat sit amet elementum vulputate, lectus mauris volutpat mi, vitae accumsan metus elit ut nunc. Vestibulum lacinia enim eget eros fermentum scelerisque. Proin augue leo, posuere ut imperdiet vitae, fermentum eu ipsum. Sed sed neque sagittis, posuere urna nec, commodo leo. Pellentesque posuere justo vitae massa volutpat maximus.',
-  tags: [{ name: 'Open for freelance' }, { name: 'Available for mentoring' }, { name: 'Working on side project' }],
+    "I'm a passionate Front-End Engineer with a strong enthusiasm for challenging projects. I specialize in ReactJS, TypeScript, and JavaScript, utilizing these technologies to create innovative and scalable solutions. Under a business mindset, I am thrilled to develop technology that fulfills user needs. As a team player that has worked on several projects from different countries, I embrace diversity to approach any situation with a wider perspective. These experiences have nurtured my fascination for sharing and learning from different cultures, especially in teamwork.",
+  tags: [],
   action: {
     label: 'Download CV',
-    url: '/cv.pdf',
-    downloadedFileName: 'CV-Mark_Freeman.pdf',
+    url: '/stephanie-fernandez-resume.pdf',
+    downloadedFileName: 'Stephanie_Fernandez_Resume.pdf',
   },
-  links: [facebook({ url: '#' }), github({ url: '#' }), linkedin({ url: '#' }), twitter({ url: '#' })],
+  links: [
+    github({ url: 'https://github.com/stephanienfs' }),
+    linkedin({ url: 'https://linkedin.com/in/stephanie-nicole-fs' }),
+  ],
 } as const satisfies ReadonlyDeep<MainSection>;
 
 export default mainSectionData;
