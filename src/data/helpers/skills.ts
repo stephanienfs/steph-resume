@@ -227,3 +227,45 @@ export const java = createSkillFactory({
   iconColor: '#007396',
   url: 'https://www.java.com/',
 });
+
+export const grafana = createSkillFactory({
+  name: 'Grafana',
+  icon: 'simple-icons:grafana',
+  iconColor: '#F46800',
+  url: 'https://grafana.com/',
+});
+
+export const emberjs = createSkillFactory({
+  name: 'Ember.js',
+  icon: 'simple-icons:emberdotjs',
+  iconColor: '#E04E39',
+  url: 'https://emberjs.com/',
+});
+
+export const sap = createSkillFactory({
+  name: 'SAP',
+  icon: 'simple-icons:sap',
+  iconColor: '#0070F1',
+  url: 'https://www.sap.com/',
+});
+
+export const hana = createSkillFactory({
+  name: 'SAP HANA',
+  icon: 'simple-icons:sap',
+  iconColor: '#0070F1',
+  url: 'https://www.sap.com/',
+});
+
+export const hybris = createSkillFactory({
+  name: 'SAP Hybris',
+  icon: 'simple-icons:sap',
+  iconColor: '#0070F1',
+  url: 'https://www.hybris.com/',
+});
+
+export const objectiveC = createSkillFactory({
+  name: 'Objective-C',
+  icon: 'simple-icons:apple',
+  iconColor: '#000000',
+  url: 'https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html',
+});
