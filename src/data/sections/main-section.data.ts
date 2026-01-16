@@ -15,7 +15,7 @@ const mainSectionData = {
   details: [
     { label: 'Email', value: 'stephanienicolefs@gmail.com', url: 'mailto:stephanienicolefs@gmail.com' },
     { label: 'Current residence', value: 'Buenos Aires, Argentina' },
-    { label: 'Citizenship', value: 'United States (US Citizen)' },
+    { label: 'Citizenship', value: 'US Citizen)' },
   ],
   pdfDetails: [
     { label: 'Email', value: 'stephanienicolefs@gmail.com' },
