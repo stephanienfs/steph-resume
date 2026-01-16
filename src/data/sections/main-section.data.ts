@@ -28,8 +28,8 @@ const mainSectionData = {
   tags: [],
   action: {
     label: 'Download CV',
-    url: '/stephanie-fernandez-resume.pdf',
-    downloadedFileName: 'Stephanie_Fernandez_Resume.pdf',
+    url: '/Stephanie-Fernandez-Salinas-Resume.pdf',
+    downloadedFileName: 'Stephanie_Fernandez_Salinas_Resume.pdf',
   },
   links: [
     github({ url: 'https://github.com/stephanienfs' }),

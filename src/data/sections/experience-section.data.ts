@@ -37,13 +37,17 @@ const experienceSectionData = {
       image: import('@/assets/logos/opengov-logo.png'),
       dates: [new Date('2023-09'), null],
       description: `
-     As part of the Permitting and Licensing suite, I contributed to several key initiatives:
+    I work as a Senior Frontend Engineer within the Permitting & Licensing platform, leading front-end architecture initiatives for large-scale, data-intensive products used by government agencies across the United States.
 
-    • I led the critical modernization of OpenGov's internal payment platform using Node.js, GraphQL, and React, creating an extensible architecture that enabled seamless integration with other product suites and multiple third-party payment providers.
+    • Led the front-end architecture for a major workflow initiative and built the Plan Review experience from scratch, designing complex multi-step flows, wizards, validations, and state management to enable government employees to process permits and licenses efficiently at scale.
 
-    • Designed and implemented a set of dynamic, plug-and-play UI components that support multiple payment processors, allowing seamless configuration and visual consistency across the product suite.
+    • Designed and built a payments framework using React and GraphQL, delivering an extensible, provider-agnostic payment component designed to scale across platforms and integrate with multiple payment providers such as Stripe, Elavon, PaymentTech and others. The framework was built to support high-volume payment workflows and enable new providers to be onboarded through configuration.
 
-    • Spearheaded the migration of the legacy codebase and UI components from Ember to React, improving performance, maintainability, and enabling the adoption of reusable, headless components across the platform.
+    • Designed the architecture and implementation of the Shopping Cart / bulk payments experience, allowing users to group multiple record steps and pay in bulk, significantly reducing up to 300 manual actions per permit/license and improving end-to-end operational efficiency.
+
+    • Built complex, data-heavy UIs including multi-step workflows, wizards, and bulk actions, handling large volumes of data with advanced data fetching and pagination strategies using TanStack Query and GraphQL.
+
+    • Played a key role in frontend architecture decisions, collaborating closely with product, design, and backend teams across workflows, Plan Review, and payments.
       `,
       tagsList: {
         title: 'Technologies',

@@ -69,9 +69,8 @@ const skillsSectionData = {
     {
       title: 'I speak',
       skills: [
-        { icon: 'circle-flags:pl', name: 'Polish - native' },
-        { icon: 'circle-flags:us', name: 'English - C1' },
-        { icon: 'circle-flags:es-variant', name: 'Spanish - B1' },
+        { icon: 'circle-flags:es-variant', name: 'Spanish - native' },
+        { icon: 'circle-flags:us', name: 'English - fluent' },
       ],
     },
   ],

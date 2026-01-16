@@ -269,3 +269,16 @@ export const objectiveC = createSkillFactory({
   iconColor: '#000000',
   url: 'https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html',
 });
+
+export const squarespace = createSkillFactory({
+  name: 'Squarespace',
+  icon: 'simple-icons:squarespace',
+  iconColor: '#000000',
+  url: 'https://www.squarespace.com/',
+});
+
+export const breakdance = createSkillFactory({
+  name: 'Breakdance',
+  iconColor: '#000000',
+  url: 'https://www.breakdance.com/',
+});
